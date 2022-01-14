@@ -4,7 +4,7 @@ Nostalgic-TV
 
 <h3>Intro</h3>
 A simple way to autoplay curated lists of public domain TV shows for those suffering from dementia.
-Live-streaming services can be difficult for people with dementia to operate and potentially sensitive content can appear unexpectedly on live television channels leading to distress.
+Live-streaming services can be difficult for people with dementia to operate and potentially sensitive content can appear unexpectedly on live television channels leading to unnecessary distress. 
 
 "She still enjoys many programmes but I find it difficult to find a channel that is not going to at some point introduce a programme or advert she will get upset at." 
 
