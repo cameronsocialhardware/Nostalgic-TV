@@ -1,6 +1,6 @@
 Nostalgic-TV
 ---
-<h3>Autoplay curated lists of public domain TV shows and films for dementia sufferers</h3>
+<h3>Autoplay curated lists of public domain TV shows and films for dementia sufferers using the Raspberry Pi</h3>
 
 <h4>Overview</h4>
 A simple way to autoplay curated lists of public domain TV shows for those suffering from dementia.
