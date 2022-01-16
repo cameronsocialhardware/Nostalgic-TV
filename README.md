@@ -13,3 +13,26 @@ Here is the list of items required for this project:</br></br>
 + USB Stick
 + USB A-Male to A-Female extension cord
 + HDMI cable
+
+<h3>Instructions</h3>
+
+The run.sh file should be placed under the /home/pi directory.
+
+You should also modify its attributes to be an executable file by using the following command:
+
+`chown +x /home/pi/run.sh`
+
+When executed, the script tries to enumerate all video files on the USB drive ending with .avi or .mp4, then shuffles them, and asks OMXplayer to play it one by one. When the cycle ends, the script sleeps for a bit, and then tries to start the play cycle again.
+
+Once you have the script copied, prepare a USB drive with .mp4 public domain television shows in the root folder and plug it into your Raspberry Pi.
+
+Next, run...
+
+`sudo echo "/home/pi/run.sh" | sudo tee /etc/xdg/lxsession/LXDE-pi/autostart`
+
+Then run...
+
+`sudo reboot`
+
+Once your Raspberry Pi has rebooted, you're ready to start using your Nostalgic TV!
+
